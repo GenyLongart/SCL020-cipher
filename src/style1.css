@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(148, 148, 165);;
+        color:black;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .cdip {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(148, 148, 165);
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        
+    }
+
+    img {
+        width:300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    display: flex;
+    justify-content:center;
+    margin-top: 5px;
+    }
+
+    .entrar{
+        display: flex;
+        justify-content: center;
+    }
