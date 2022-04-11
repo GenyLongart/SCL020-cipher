@@ -7,18 +7,21 @@
   </head>
   <body>
     <div id="root">
+      
+      <div class="tope">
       <h1>INSTRUMENTO DE CIFRADO</h1>
+
       <img src="Police-Badge.png">
-    
+    </div>
       <form>
 
-      <label for "Fecha">Fecha:</label>
+      <label for="Fecha">Fecha:</label>
       <input type="text" name="Fecha" id="Fecha" placeholder="Ingresar dd/mm/aaaa">
-      <label for "Hora">Hora:</label>
+      <label for="Hora">Hora:</label>
       <input type="text" name="Hora" id="Hora" placeholder="00:00">
-      <label for "Nombre">Agente:</label>
+      <label for="Nombre">Agente:</label>
       <input type="text" name="Nombre" id="Nombre" placeholder="Escriba su nombre">
-      <label for "Caso">Caso:</label>
+      <label for="Caso">Caso:</label>
       <input type="text" name="Caso" id="Caso" placeholder="#0000">
 
       <div class="subtitulo">
@@ -29,14 +32,15 @@
 
       <div class="flex-container">
 
-      <textarea class= "Caja1" rows="20" cols="70"></textarea>
-      <textarea class= "Caja2" rows="20" cols="70"></textarea>
+      <textarea class= "Caja1" id="mensaje" rows="20" cols="70"></textarea>
+      <textarea class= "Caja2" id="mensaje2" rows="20" cols="70"></textarea>
 
     </div>
 
     <div class="botoncitos">
-    <input type="submit" class="boton1" value="CIFRAR">
-      <input type="submit" class="boton2" value="DESCIFRAR">
+    <input type="button" id= "cifrar" class="boton1" value="CIFRAR">
+    <p>Desp: <input type="number" id="desplazamiento" size="4"/></p>
+      <input type="button" id= "descifrar" class="boton2" value="DESCIFRAR">
 
     </div>
 
